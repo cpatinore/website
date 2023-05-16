@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vCard - Personal Portfolio</title>
+
+    <!-- FAVICON -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--MAIN-->
+
+    <main>
+      <!--SIDEBAR-->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/avatar-2.png"
+              alt="Catherin Patiño"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Catherin Patiño">Catherin Patiño</h1>
+
+            <p class="title">
+              Estudiante de Ingeniería en Sistemas e Informática.
+            </p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Contacto</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Correo:</p>
+
+                <a href="mailto:cpatinore@unal.edu.co" class="contact-link"
+                  >cpatinore@unal.edu.co</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Teléfono</p>
+
+                <a href="tel:+12133522795" class="contact-link"
+                  >+1 (213) 352-2795</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Fecha de nacimiento</p>
+
+                <time datetime="1982-06-23">Abril 26, 2000</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Ubicación</p>
+
+                <address>Antioquia, Colombia</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="https://www.instagram.com/pat.cat_/" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <div class="main-content">
+        <!-- NAVBAR -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>Acerca</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resumen</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- ACERCA DE -->
+
+        <article class="about active" data-page="acerca">
+          <header>
+            <h2 class="h2 article-title">Acerca de mi</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I'm Creative Director and UI/UX Designer from Sydney, Australia,
+              working in web development and print media. I enjoy turning
+              complex problems into simple, beautiful and intuitive designs.
+            </p>
+
+            <p>
+              My job is to build your website so that it is functional and
+              user-friendly but at the same time attractive. Moreover, I add
+              personal touch to your product and make sure that is eye-catching
+              and easy to use. My aim is to bring across your message and
+              identity in the most creative way. I created web design for many
+              famous brand companies.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">Qué estoy haciendo</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Desarrollo de aplicaciones web</h4>
+
+                  <p class="service-item-text">
+                    Eficientes y escalables, utilizando tecnologías como PHP, Laravel, Angular y JavaScript.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Modelado de procesos empresariales</h4>
+
+                  <p class="service-item-text">
+                    Utilizando modelos BPMN, creando soluciones tecnológicas que satisfacen las necesidades del negocio.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-app.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Administración de bases de datos</h4>
+
+                  <p class="service-item-text">
+                    Almacenar y gestionar datos de manera eficiente y efectiva.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-photo.svg"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Trabajo en equipo</h4>
+
+                  <p class="service-item-text">
+                    Contribuir efectivamente en proyectos desafiantes y ambiciosos, manteniendo un enfoque en la calidad del código.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!-- RESUME -->
+
+        <article class="resume" data-page="resumen">
+          <header>
+            <h2 class="h2 article-title">Resumen</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Educación</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Universidad Nacional de Colombia
+                </h4>
+
+                <span>2018 — Actualidad</span>
+
+                <p class="timeline-text">
+                  Continuo con mi formación profesional en aras de
+                  adoptar, aplicar e innovar conocimiento en el campo de los
+                  sistemas e informática.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Introduction to Structured Query Language (SQL)
+                </h4>
+
+                <span
+                  ><a
+                    href="https://coursera.org/share/6b09947de8253cac88f4b9ebf521f932"
+                    target="_blank"
+                    >Curso - Coursera</a
+                  ></span
+                >
+
+                <p class="timeline-text">
+                  En este curso, aprendí los pasos para instalar un editor de
+                  texto, instalar MAMP o XAMPP (o equivalente) y crear una base
+                  de datos MySql.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Deep Learning Applications for Computer Vision
+                </h4>
+
+                <span
+                  ><a
+                    href="https://coursera.org/share/39a87583a2c61ade7b3722d362a70bce"
+                    target="_blank"
+                    >Curso - Coursera</a
+                  ></span
+                >
+
+                <p class="timeline-text">
+                  En este curso, aprendí sobre la Visión por Computador como campo de estudio e investigación.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Introduction to Machine Learning
+                </h4>
+
+                <span
+                  ><a
+                    href="https://coursera.org/share/c4963ddd8d948efc4513dc1e665dfcff"
+                    target="_blank"
+                    >Curso - Coursera</a
+                  ></span
+                >
+
+                <p class="timeline-text">
+                  Este curso me proporcionó una comprensión básica de los modelos de aprendizaje automático (regresión logística, perceptrones multicapa, redes neuronales convolucionales, procesamiento del lenguaje natural, etc.).
+                </p>
+              </li>
+
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experiencia</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Desarrolladora</h4>
+
+                <span>2022 — Actualidad</span>
+
+                <p class="timeline-text">
+                  He demostrado habilidades en la implementación de soluciones tecnológicas innovadoras que satisfacen las necesidades del negocio y mejoran la experiencia del usuario. Mi capacidad para trabajar en equipo y mi enfoque en la calidad del código me permiten contribuir de manera efectiva en proyectos desafiantes y ambiciosos.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Profesional de apoyo</h4>
+
+                <span>2021 — 2022</span>
+
+                <p class="timeline-text">
+                  He adquirido experiencia en mantener y actualizar sitios web, garantizando que el contenido se presente de manera clara y eficaz para el público objetivo. También cuento con habilidades para brindar soporte logístico en eventos presenciales o virtuales, asegurándome de que se realicen sin contratiempos y satisfagan las necesidades del público asistente. A través de mi capacidad para trabajar en equipo y mi enfoque en la atención al detalle, he demostrado ser una contribución efectiva en proyectos y actividades desafiantes.
+                </p>
+              </li>
+
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">Mis habilidades</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">PHP</h5>
+                  <data value="60">60%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 60%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Javascript</h5>
+                  <data value="78">78%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 78%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Python</h5>
+                  <data value="60">60%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 60%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Angular</h5>
+                  <data value="50">50%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 50%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Base de datos relacionales</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              
+            </ul>
+          </section>
+        </article>
+
+        <!-- Portafolio -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Diseño web</button>
+              </li>
+
+              <!-- <li class="filter-item">
+                <button data-filter-btn>Applications</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li> -->
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Diseño web</button>
+                </li>
+
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="diseño web"
+              >
+                <a href="https://allunbot.onrender.com/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-1.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Allunbot</h3>
+
+                  <p class="project-category">Diseño web</p>
+                </a>
+              </li>
+
+              
+            </ul>
+          </section>
+        </article>
+
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
