@@ -2,7 +2,7 @@
 FROM python:3.7
 
 # Copia el archivo requirements.txt al contenedor
-COPY requirements.txt .
+COPY ./requirements.txt .
 
 # Instala las dependencias del proyecto
 RUN pip install --no-cache-dir -r requirements.txt
