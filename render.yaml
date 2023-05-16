@@ -4,7 +4,7 @@ services:
   - type: web
     name: cpatinore
     env: docker
-    repo: https://github.com/cpatinore/ppi_02.git # optional
+    repo: https://github.com/cpatinore/website # optional
     plan: free
     branch: main
     rootDir: ./dockerfile
