@@ -17,4 +17,4 @@ if __name__ == "__main__":
     """Main execution of the program"""
 
     # app.debug = True # Hot reloading
-    app.run(port = int(os.environ.get('PORT', 3000))) # Server execution port
+    app.run(port = int(os.environ.get('PORT', 10000))) # Server execution port

@@ -11,7 +11,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Expone el puerto en el que se ejecuta el servidor
-EXPOSE 3000
+EXPOSE 10000
 
 # Ejecuta el servidor con Gunicorn
 CMD ["gunicorn", "--bind", "0.0.0.0:10000", "main:app"]
