@@ -60,8 +60,8 @@
   --smoky-black: hsl(0, 0%, 7%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
-  --orange-yellow-crayola: hsl(209.57deg 100% 72%);
-  --vegas-gold: hsl(205.72deg 54% 58%);
+  --orange-yellow-crayola: #70b9ff;
+  --vegas-gold: #5a9cce;
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
